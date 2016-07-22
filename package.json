@@ -1,14 +1,14 @@
 {
-  "name": "imapper-storage-memory",
+  "name": "imapper-storage-s3ses",
   "version": "0.5.0",
-  "description": "Memory storage plugin for Imapper https://github.com/deitch/imapper",
+  "description": "S3 storage plugin for Imapper https://github.com/deitch/imapper based on imapper-storage-memory",
   "main": "lib/storage.js",
   "scripts": {
     "test": "npm test"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/deitch/imapper-storage-memory.git"
+    "url": "https://github.com/seelang2/imapper-storage-s3ses.git"
   },
   "keywords": [
     "IMAP",
@@ -21,38 +21,7 @@
     "moment": "^2.10.6"
   },
   "author": {
-    "name": "Avi Deitcher http://github.com/deitch"
+    "name": "Chris Langtiw https://github.com/seelang2"
   },
   "license": "MIT",
-  "gitHead": "16bd48e80973b5e178d9eac79fa49e10d540b656",
-  "bugs": {
-    "url": "https://github.com/deitch/imapper-storage-memory/issues"
-  },
-  "homepage": "https://github.com/deitch/imapper-storage-memory#readme",
-  "_id": "imapper-storage-memory@0.5.0",
-  "_shasum": "a4e307171971e363911c5963eca448c908a5bdda",
-  "_from": "imapper-storage-memory@>=0.5.0 <0.6.0",
-  "_npmVersion": "2.14.7",
-  "_nodeVersion": "4.2.1",
-  "_npmUser": {
-    "name": "deitch",
-    "email": "avi@deitcher.net"
-  },
-  "maintainers": [
-    {
-      "name": "deitch",
-      "email": "avi@deitcher.net"
-    }
-  ],
-  "dist": {
-    "shasum": "a4e307171971e363911c5963eca448c908a5bdda",
-    "tarball": "https://registry.npmjs.org/imapper-storage-memory/-/imapper-storage-memory-0.5.0.tgz"
-  },
-  "_npmOperationalInternal": {
-    "host": "packages-9-west.internal.npmjs.com",
-    "tmp": "tmp/imapper-storage-memory-0.5.0.tgz_1456749361217_0.8907570047304034"
-  },
-  "directories": {},
-  "_resolved": "https://registry.npmjs.org/imapper-storage-memory/-/imapper-storage-memory-0.5.0.tgz",
-  "readme": "ERROR: No README data found!"
 }
